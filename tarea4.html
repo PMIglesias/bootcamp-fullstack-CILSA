@@ -58,23 +58,31 @@
         <h2>Formulario de Datos Personales</h2>
         <form>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required aria-label="por favor, ingrese nombre completo"
+                tabindex="0">
 
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
+            <input type="text" id="apellido" name="apellido" required
+                aria-label="Por favor, ingrese su apellido completo.">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required
+                aria-label="Por favor, ingrese su dirección de correo electrónico.">
 
             <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required
+                aria-label="Seleccione su fecha de nacimiento en el formato día, mes, año.">
 
             <label for="pais">País de Residencia:</label>
-            <input type="text" id="pais" name="pais" required>
+            <input type="text" id="pais" name="pais" required
+                aria-label="Por favor, ingrese el país en el que reside actualmente.">
 
-            <button type="submit" class="style-btn">Enviar</button>
-            <button type="button" class="style-btn" id="style1-btn">Estilo</button>
-            <button type="button" class="style-btn" id="style2-btn">Estilo 2</button>
+            <button type="submit" class="style-btn" aria-label="botón para enviar el formulario">Enviar</button>
+            <button type="button" class="style-btn" id="style1-btn"
+                aria-label="botón de estilo visual normal">Estilo</button>
+            <button type="button" class="style-btn" id="style2-btn"
+                aria-label="botón de estilo visual de alto contraste">Estilo
+                2</button>
         </form>
     </div>
 
